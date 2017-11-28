@@ -1,0 +1,46 @@
+
+/*Navbar */ 
+
+.nav-wrapper {
+    background-color:#fff;
+}
+
+nav ul a {
+    color:#324157;
+}
+
+/* Parallax */
+
+.parallax-container {
+      height: 500px;
+    }
+
+
+.section {
+    height:500px;
+}
+
+
+.contact {
+    height: 300px;
+    background: #fff;
+    position: relative;
+    margin: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
