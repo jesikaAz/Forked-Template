@@ -9,6 +9,36 @@ nav ul a {
     color:#324157;
 }
 
+nav ul li a:hover {
+    color:#48AECB;
+    background:#fff;
+}
+
+.accueil {
+    color:#48AECB;
+}
+
+/* Background */
+
+.logo {
+    position: absolute;
+    left:270px;
+    padding:70px; 
+}
+
+h1 {
+    font: italic normal normal 65px/1.4em 'noticia text',serif;
+    color: #FFFFFF;
+    padding-left:200px;
+    padding-top: 110px;
+}
+
+.social {
+    padding:8px;
+    padding-right:150px;
+}
+
+
 /* Parallax */
 
 .parallax-container {
@@ -17,15 +47,22 @@ nav ul a {
 
 
 .section {
-    height:600px;
+   padding:60px;
 }
 
 
 /* A propos */ 
 
-.txt-propos {
-    text-align: center;
+.txt {
+    font: normal normal normal 16px/1.4em 'open sans',sans-serif;
+    color: #324157;
 }
+
+.text {
+    padding-left:80px;
+    padding-right:80px;
+}
+
 
 
 /* Section Cours */ 
