@@ -55,10 +55,11 @@
   </div>
   
   <div class="section white">
-    <div class="row container">
+    <div class="row container propos">
      <h2>À propos</h2>
-      <p class="grey-text text-darken-3 lighten-3">
-Paragraphe. Cliquez ici pour ajouter votre propre texte. Cliquez sur "Modifier Texte" ou double-cliquez ici pour ajouter votre contenu et personnaliser les polices. Relatez ici votre parcours et présentez votre activité à vos visiteurs.<br>Présentez votre entreprise, vos services et vos équipes. Utilisez cet espace pour décrire votre activité. Présentez votre équipe et les services proposés. Expliquez à vos visiteurs vos motivations, vos objectifs et soulignez vos avantages par rapport à vos concurrents. Démarquez-vous et captivez l'attention de vos visiteurs.</p>
+      <p class="txt-propos">
+          Paragraphe. Cliquez ici pour ajouter votre propre texte. Cliquez sur "Modifier Texte" ou double-cliquez ici pour ajouter votre contenu et personnaliser les polices. Relatez ici votre parcours et présentez votre activité à vos visiteurs.</p> 
+          <p class="txt-propos">Présentez votre entreprise, vos services et vos équipes. Utilisez cet espace pour décrire votre activité. Présentez votre équipe et les services proposés. Expliquez à vos visiteurs vos motivations, vos objectifs et soulignez vos avantages par rapport à vos concurrents. Démarquez-vous et captivez l'attention de vos visiteurs.</p>
     </div>
   </div>
   
@@ -66,9 +67,23 @@ Paragraphe. Cliquez ici pour ajouter votre propre texte. Cliquez sur "Modifier T
     <div class="parallax"><img src="img/yoga3.jpg"></div>
   </div>
      
-   <div class="section white">
+   <div class="section bleu">
     <div class="row container">
-      <p class="grey-text text-darken-3 lighten-3">Cours</p>
+      <h2>Cours</h2>
+      <div class="cours-left">
+         <div class="left">
+              <h3>Cours collectifs</h3>
+              <p>Téléchargez les horaires du mois</p>
+              <button>Télécharger</button>
+          </div>
+      </div>
+      <div class="cours-right">
+         <div class="right">
+              <h3>Cours particuliers</h3>
+              <p>Réservez un cours particulier</p>
+              <button>Réservez</button>
+        </div>
+      </div>
     </div>
   </div>
       
@@ -80,15 +95,38 @@ Paragraphe. Cliquez ici pour ajouter votre propre texte. Cliquez sur "Modifier T
     
    <div class="section white">
     <div class="row container">
-      <p class="grey-text text-darken-3 lighten-3">
-“Je suis un témoignage. Cliquez ici pour me modifier et valoriser votre activité.”</p>
+     <img src="img/path.png">
+      <h4>“Je suis un témoignage. Cliquez ici pour me modifier et valoriser votre activité.”</h4>
+      <img class="pers" src="img/pers.jpg">
+      <p>Marie Robert</p>
     </div>
   </div>
  
  <div class="parallax-container">
     <div class="parallax"><img src="img/yoga2.jpeg">
-        <div class="contact">
+        
+    <div class="contact">
+        <h2>Contactez-nous</h2>
+        
+    <form action="/ma-page-de-traitement" method="post">
+        <div>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" />
         </div>
+        <div>
+            <label for="courriel">Email :</label>
+            <input type="email" id="courriel" />
+        </div>
+        <div>
+            <label for="message">Message :</label>
+            <textarea id="message"></textarea>
+        </div>
+    
+        <div class="button">
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>
+    </div>
     
     </div>
   </div>
@@ -97,18 +135,17 @@ Paragraphe. Cliquez ici pour ajouter votre propre texte. Cliquez sur "Modifier T
 
 <footer>
     <div>
-        <p> @ Crée par Jessica Anschutz</p>
-        
+        <p class="author"> @ Crée par Jessica Anschutz</p>
     </div>
 </footer>
 
 
 
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-       <!-- Compiled and minified JavaScript -->
-         <script type="text/javascript" src="css/materialize.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="css/materialize.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
       
      
     </body>

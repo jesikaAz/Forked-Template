@@ -13,26 +13,106 @@ nav ul a {
 
 .parallax-container {
       height: 500px;
-    }
+ }
 
 
 .section {
-    height:500px;
+    height:600px;
 }
 
+
+/* A propos */ 
+
+.txt-propos {
+    text-align: center;
+}
+
+
+/* Section Cours */ 
+
+.cours-left {
+    width: 330px;
+    position:absolute;
+    height: 297px;
+    background:#fff;
+}
+
+.cours-right {
+    width: 330px;
+    left:600px;
+    position:absolute;
+    height: 297px;
+    background:#fff;
+}
+
+h3 {
+    font: italic normal normal 26px/1.4em 'noticia text',serif;
+    color: #48AECB;
+}
+
+
+h4 {
+    font: normal normal normal 20px/1.4em 'open sans',sans-serif;
+    color: #324157;
+}
+
+p {
+    font: normal normal normal 17px/1.4em 'open sans',sans-serif;
+    color: #324157;
+}
+
+
+.bleu{
+     background:#E1F3F9;
+}
+
+button {
+    background-color: rgba(72, 174, 203, 1);
+    width:192px;
+    height:40px;
+}
+
+
+/* Temoignage */ 
+
+.pers {
+    border-radius:80px;
+}
+
+
+/* Formulaire de contact */
 
 .contact {
-    height: 300px;
+    width: 50%;
     background: #fff;
     position: relative;
-    margin: 100px;
+    margin:50px;
 }
 
+h2 {
+    font: italic normal normal 45px/1.4em 'noticia text',serif;
+    line-height: 1.4em;
+    color: #48AECB;
+    text-align: center;
+}
 
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 1em;
+}
 
+/* Footer */ 
 
+footer {
+    height:155px;
+}
 
-
+.author {
+    width: 980px;
+    position: absolute;
+    margin:100px;
+}
 
 
 
