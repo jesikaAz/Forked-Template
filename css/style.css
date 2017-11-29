@@ -12,12 +12,23 @@ nav ul a {
 nav ul li a:hover {
     color:#48AECB;
     background:#fff;
+   
 }
 
 .accueil {
     color:#48AECB;
+}  
+
+i.fa {
+    color:#989898;
+    padding-left:15px;
 }
 
+i.fa:hover {
+    color:#EDEDED;
+}
+
+       
 /* Background */
 
 .logo {
@@ -35,7 +46,6 @@ h1 {
 
 .social {
     padding:8px;
-    padding-right:150px;
 }
 
 
@@ -64,22 +74,36 @@ h1 {
 }
 
 
-
 /* Section Cours */ 
 
+
+.row  {
+    margin:0 auto;
+    text-align: center;
+}
+
+.flower {
+    position:relative;
+    left:50px;
+}
+
 .cours-left {
+    text-align:center;
     width: 330px;
     position:absolute;
     height: 297px;
     background:#fff;
+    padding:40px;
 }
 
 .cours-right {
+    text-align:center;
     width: 330px;
     left:600px;
     position:absolute;
     height: 297px;
     background:#fff;
+    padding:50px;
 }
 
 h3 {
@@ -101,6 +125,7 @@ p {
 
 .bleu{
      background:#E1F3F9;
+     height:600px;
 }
 
 button {
